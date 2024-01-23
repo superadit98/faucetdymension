@@ -40,7 +40,7 @@ export default function Faucet() {
         <div className="w-full max-w-md space-y-8">
           <div>
             <img className="mx-auto h-12 w-auto" src="logo.png" alt="Testnet Faucet" />
-            <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">Testnet Faucet</h2>
+            <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">Gibran Chain Faucet</h2>
             <p className="mt-2 text-center text-sm text-gray-600">
               <a href="https://github.com/orgs/0xDeploy/repositories" target="_blank" rel="noreferrer" className="font-medium text-indigo-600 hover:text-indigo-500">
                 Open Source
@@ -58,7 +58,7 @@ export default function Faucet() {
             </div>
             <div>
               <button disabled={isDisabled} type="submit" className="disabled:opacity-25 group relative flex w-full justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
-                Request Funds
+                Request GIBR Funds
               </button>
             </div>
           </form>
